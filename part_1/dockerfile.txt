@@ -1,0 +1,5 @@
+FROM openjdk:11
+COPY . /tmp
+WORKDIR /tmp
+EXPOSE 8081
+CMD ["java", "-jar", "lab01-0.0.1-SNAPSHOT.jar"]
